@@ -4,32 +4,296 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" href="./imagenes/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+
+    <meta name="theme-color" content="#2091F9">
+
+    <title>Portfolio Luz Nerina Laguna</title>
 </head>
 <body>
-    <header>
-        <h1>Argentina Programa 2022</h1>
-        <h3># yo programo</h3>
-        <p>UN PARRAFO CUALQUIERA</p><hr><hr>
-        <P><B>UN PARRAFO CUALQUIERA</B></P><br>
-        <strong>UN PARRAFO CUALQUIERA</strong>
-        <div>otro titulo</div>
-        <a href="link" target="_blank">CLICK</a>
-        <!--<img src"facebook,instagram,whatsapp"> !-->
     
+
+    <header class="hero">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <img src="./images/APLogo-20-20.png" class="nav__title">
+            </div>
+            
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="#inicio" class="nav__links">Inicio</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#sobremi" class="nav__links">Sobre mí</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#experiencia" class="nav__links">Experiencia</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#educacion" class="nav__links">Educación</a>
+                </li>
+                <a href="#skills" class="nav__links">Skills</a>
+            </li>
+            <a href="#proyectos" class="nav__links">Proyectos</a>
+            </li>
+            <a href="#footer" class="nav__links">Contacto</a>
+            </li>
+
+                <img src="./images/close.svg" class="nav__close">
+            </ul>
+
+            <div class="nav__menu">
+                <img src="./images/menu.svg" class="nav__img">
+            </div>
+        </nav>
+
+        <section class="hero__container container" id="inicio">
+            <h1 class="hero__title">ARGENTINA PROGRAMA.</h1>
+            <p class="hero__paragraph">#Segunda Etapa Yo Programo.</p>
+            
+            <section class="form-login">
+                <h5>Login</h5>
+                <input class="controls" type="text" name="usuario" value="" placeholder="usuario">
+                <input class="controls" type="password" name="contraseña" value="" placeholder="contraseña">
+                <a href="#" class="cta">Ingresar</a>
+                <p><a href=¨#¨>¿Olvidaste tu contraseña?</a></p>
+            </section>
+        </section>
     </header>
-<footer>
- <div class="footer">
-<div class="container">
-    <a href="img" alt="hola"></a>
-    <h1>Footer</h1>
+
+    <main>
+        <section class="testimony">
+            <div class="testimony__container container">
+
+                <section class="testimony__body testimony__body--show" data-id="1">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Luz Laguna</h2><span class="testimony__course">Web full Stack Jr</span>
+                        
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/Screenshot_20210704-115942_Instagram.jpg" class="testimony__img">
+                    </figure>
+                </section>
+            </div>
+        </section>
+        <section class="questions__offer" id="sobremi">
+            <h2 class="subtitle">Sobre mí</h2>
+            <p class="questions__copy">Hola mi nombre es Luz tengo 26 años,soy de Villa Carlos Paz Córdoba, actualmente soy estudiante de la carrera de contador público en la Unc, hice el curso de Argentina Programa para saber un poquito de que trata y expandir mis conocimientos para un futuro.</p>
+            <br>
+            <p class="questions__copy">Soy una persona que le gusta aprender,trabajar en equipos, me gustan los desafíos, siempre pensando en positivo, buscando soluciones eficientes y eficaces, capacitándome para mejorar día a día, con mucho carácter y empatía .</p>
+        </section>
+
+        <section class="container about" id="about">
+            <h2 class="subtitle">Web full Stack Jr</h2>
+            
+            <section class="questions container" id="experiencia">
+                <img src="./images/shapes.svg" class="about__icon">
+                <h2 class="subtitle">Experiencia</h2>
+                
     
-</div>
+                <section class="questions__container">
+                    <article class="questions__padding">
+                        <div class="questions__answer">
+                            <h3 class="questions__title">Panadería "La San Miguel"
+                                <span class="questions__arrow">
+                                    <img src="./images/arrow.svg" class="questions__img">
+                                </span>
+                            </h3>
+    
+                            <p class="questions__show">Trabaje como cajera y atención al público desde el 2011 al 2015.</p>
+                        </div>
+                    </article>
+    
+                    <article class="questions__padding">
+                        <div class="questions__answer">
+                            <h3 class="questions__title">Pinturas 2000
+                                <span class="questions__arrow">
+                                    <img src="./images/arrow.svg" class="questions__img">
+                                </span>
+                            </h3>
+    
+                            <p class="questions__show">Trabajo desde el año 2016 en esta pinturería realizando liquidaciones de las tarjetas de créditos, los posnet.</p>
+                        </div>
+                    </article>
+    
+                    <article class="questions__padding">
+                        <div class="questions__answer">
+                            <h3 class="questions__title">Feria americana "Fusion_Fa"
+                                <span class="questions__arrow">
+                                    <img src="./images/arrow.svg" class="questions__img">
+                                </span>
+                            </h3>
+    
+                            <p class="questions__show">En pandemia surgió la idea de formar una feria americana, con ropa de segunda mano que este en buen estado, cree una página de Instagram en la cual fui subiendo fotos de las prendas, talles, y precios, sigo trabajando en ella actualmente.</p>
+                        </div>
+                    </article>
+                </section>
+        </section>
+<section class="questions container" id="educacion">
+            <img src="./images/paint.svg" class="about__icon">
+            <h2 class="subtitle">Educación</h2>
+    
+            <section class="questions__container">
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">Primario
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Escuela primaria Carlos N.Paz de la Ciudad de Villa Carlos Paz.</p>
+                    </div>
+                </article>
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">Secundario 
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Instituto Secundario IESS Alfonsina Storni de la Ciudad de Villa Carlos Paz,escolta en 5to año y abanderada en 6to año.</p>
+                    </div>
+                </article>
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">Universidad
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Universidad Nacional de Córdoba, actualmente cursando 3er año la carrera de contador público.</p>
+                    </div>
+                </article>
+            </section>
 
 
- </div>
+        <section class="skills" id="skills">
+            <div class="knowledge__container container">
+                <div class="knowledege__texts">
+                    <img src="./images/code.svg" class="about__icon"> <br>
+                    <h2 href="#" class="cta">Skills</h2>
+                </div>
+            <div class="myProgressContainer">
+                <div id="myProgress">
+                    <div id="myBar">50%</div>
+                    <div class="myBarContenedor">HTML</div>
+                  </div>
 
+                  <br>
+                <div id="myProgress">
+                    <div id="myBar1">50%</div>
+                    <div class="myBarContenedor">CSS</div>
+                  </div>
+                    <br>
+                  
+                <div id="myProgress">
+                    <div id="myBar2">40%</div>
+                    <div class="myBarContenedor">JAVA SCRIPT</div>
+                  </div>
+                  <br>
+                <div id="myProgress">
+                    <div id="myBar3">60%</div>
+                    <div class="myBarContenedor">INGLÉS</div>
+                  </div>
+                  <br>
+                  
+                <div id="myProgress">
+                    <div id="myBar4">20%</div>
+                    <div class="myBarContenedor">ANGULAR</div>
+                  </div>
 
-</footer>
+                  
+        </div>
+            </div>
+        </section>
+
+        
+
+        <section class="questions container" id="proyectos">
+            <h2 class="subtitle">Proyectos</h2>
+            <p class="questions__paragraph">Algunos de mis proyectos son:</p>
+
+            <section class="questions__container">
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">Portafolio
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Un gran desafío, un portafolio personal donde demostraré mis conocimientos y habilidades como programadora junior.</p>
+                    </div>
+                </article>
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">Diseño de página web para feria americana 
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Mi objetivo es acercar más las prendas con precios y talles a la gente, con la posibilidad de poder ver fotos,medios de pago y formas de envío.</p>
+                    </div>
+                </article>
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">Diseño de página web de viajes
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Organizar, promover y vender planes turísticos nacionales, para ser operados por las Agencias de Viajes Operadoras establecidas legalmente en el país,o fuera del territorio nacional, reservar y contratar alojamiento y demás servicios turísticos.</p>
+                    </div>
+                </article>
+            </section>
+
+            
+        </section>
+    </main>
+
+    <footer class="footer" id="footer">
+        <section class="footer__container container">
+            <nav class="nav nav--footer">
+                <h2 class="footer__title">#yo programo.</h2>
+                        <a href="#" class="nav__links">Inicio</a>
+            </nav>
+
+            <form class="footer__form" action="https://formspree.io/f/mknkkrkj" method="POST">
+                <h2 class="footer__newsletter">Para contactarme</h2>
+                <div class="footer__inputs">
+                    <input type="email" placeholder="Email:" class="footer__input" name="_replyto">
+                    <input type="submit" value="Registrate" class="footer__submit">
+                </div>
+            </form>
+        </section>
+
+        <section class="footer__copy container">
+            <div class="footer__social">
+                <a href="https://facebook.com" class="footer__icons"><img src="./images/bxl-facebook.svg" class="footer__img"></a>
+                <a href="https://instagram.com" class="footer__icons"><img src="./images/bxl-instagram.svg" class="footer__img"></a>
+                <a href="mailto:luznela29@hotmail.com" class="footer__icons"><img src="./images/bx-envelope.svg" class="footer__img"></a>
+                <a href="https://www.linkedin.com/in/luz-laguna-b78554212/" class="footer__icons"><img src="./images/bxl-linkedin-square.svg" ></a>
+            </div>
+
+            <h3 class="footer__nombre"> Laguna Luz Nerina</h3>
+        </section>
+    </footer>
+
+    <script src="./js/slider.js"></script>
+    <script src="./js/questions.js"></script>
+    <script src="./js/menu.js"></script>
 </body>
 </html>
